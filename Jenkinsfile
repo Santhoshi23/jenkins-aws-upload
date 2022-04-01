@@ -3,7 +3,7 @@ pipeline {
      stages {
          stage('Build') {
              steps {
-                 echo "Hello World"
+               bat  'echo "Hello World"'
              }
          }      
          stage('Upload to AWS') {
